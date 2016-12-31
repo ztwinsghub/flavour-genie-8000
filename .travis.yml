@@ -1,6 +1,13 @@
 language: node_js
 node_js:
   - "node"
+  - 4
+  - 6
+cache:
+  directories:
+    - node_modules
+    - client/node_modules
+sudo: required
 install:
   - npm install
   - cd client && npm install
@@ -9,3 +16,4 @@ env:
 script:
   - npm test
   - cd client && npm test
+  - cd client && npm run build

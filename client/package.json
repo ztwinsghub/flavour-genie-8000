@@ -1,6 +1,6 @@
 {
-  "homepage": "https://zimmerman-northwest69.c9users.io",
-  "name": "lookup-client",
+  "homepage": "flavour-genie-8000:8080/",
+  "name": "flavour-genie-8000",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8081/",

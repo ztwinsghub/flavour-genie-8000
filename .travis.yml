@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+install:
+  - npm install
+  - cd client && npm install
+env:
+  - NODE_ENV=CI
+script:
+  - npm test
+  - cd client && npm test

@@ -14,6 +14,6 @@ install:
 env:
   - NODE_ENV=CI
 script:
-  - npm test
+  - cd .. && npm test
   - cd client && npm test
-  - cd client && npm run build
+  - npm run build

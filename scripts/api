@@ -1,0 +1,22 @@
+#!/bin/sh
+#############
+# Used to auto launch the the flavour genie 8000 api
+#
+# This script should be moved to /etc/init.d/api
+#
+# make it an executable with:
+# `sudo chmod 755 /etc/init.d/api`
+#
+# register script to be run at start up
+# `sudo update-rc.d api defaults`
+#
+#############
+
+echo Starting Flavour Genie 8000 API
+
+set -x on
+BASE_DIR =/etc/init.d
+export BASE_DIR
+cd $BASE_DIR
+cd ../../home/pi/flavour-genie-8000
+sudo npm start

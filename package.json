@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start": "nf start -p 8080 --procfile Procfile",
+    "test": "echo test goes here",
     "dev": "nf start -p 8080 --procfile Procfile.dev",
     "server": "./node_modules/.bin/babel-node server.js"
   }

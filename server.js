@@ -95,12 +95,18 @@ app.use(bodyParser.json())
 // Express only serves static assets in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build/'));
-}
 
-// serve the client
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
+  // serve the client
+  app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  });
+
+  // serve the client
+  app.get('/get', function (req, res) {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+  });
+
+}
 
 // ROUTES FOR OUR API
 // =============================================================================

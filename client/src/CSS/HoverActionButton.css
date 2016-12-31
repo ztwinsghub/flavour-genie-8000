@@ -1,0 +1,15 @@
+.HoverActionButton {
+  position: fixed;
+  z-index: 99;
+  right: 20vmin;
+  bottom: 48px;
+  height: 10vmin;
+  width: 25vmin;
+  border-radius: 25vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}

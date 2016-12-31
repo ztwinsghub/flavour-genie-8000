@@ -1,0 +1,14 @@
+.HoverButton {
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+  user-select: none;
+}

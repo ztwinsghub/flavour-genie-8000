@@ -1,0 +1,2 @@
+web: cd client && npm start
+api: NODE_ENV=development PORT=8081 npm run server

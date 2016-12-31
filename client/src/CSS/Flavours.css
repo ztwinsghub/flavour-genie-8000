@@ -1,0 +1,8 @@
+.Flavours {
+  height: 100%;
+  position: absolute;
+  width: 70vw;
+  left: 30vw;
+  top: 0;
+  overflow-y: scroll;
+}

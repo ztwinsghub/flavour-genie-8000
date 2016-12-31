@@ -1,0 +1,22 @@
+.FlavourButton {
+  background-color: pink;
+}
+
+.ActiveFlavourButton {
+  background-color: red;
+}
+
+.toggle-button {
+  height: 15vh;
+  width: 20vw;
+  border: 1px solid black;
+  text-align: center;
+  margin: 8px;
+  padding: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+  cursor: pointer;
+  user-select: none;
+}
